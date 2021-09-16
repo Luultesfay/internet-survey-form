@@ -20,6 +20,42 @@
         <input type="email" id="email" placeholder="Enter Email" required />
         <label for="age">Age</label>
         <input id="age" type="age" placeholder="Enter Age here" required />
+        <label for="dropdown" id="dataSpeed">DataSpeed</label>
+         <select  id="dropdown">
+            <option disabled selected value>Select data connections</option>
+            <option value="high_speed">high speed internet data connection</opton>
+            <option value="medium_speed">medium speed data connection</option>
+            <option value="low_speed">low speed data connection</option> 
+          </select>
+
+          <div class="user-define">
+            
+            <div class="radio-box"><p>Best Define You As a User?</p><label><input type="radio" name="user" class="user-type"value="frequent user" checked />frequent user</label>
+              <br>
+              <label><input type ="radio" name="user" class="user-type" value="modest_user" /> modest user</label>
+              <br>
+              <label><input type ="radio" name="user"  value="low_user" /> low user</label>
+              </div>
+              <div class="check-box"><p>What Satsfay You The Most ? </p><label><input type="checkbox" name="most_liked"  value="clear video quality" checked >clear video quality</label>
+                <br>
+                <label><input type="checkbox" name="most_liked" value="short downloading time">short downloading time</label>
+                <br>
+                <label><input type="checkbox" name="most_liked" value="uninterupted sound quality">uninterupted Sound Quality</label>
+              </div>
+            </div>
+              
+
+          </div>
+
+          <div class="comments">
+           <textarea id="comment" name="comments" class="input-textarea"  placeholder="comment area to submit  .....">
+
+              </textarea>
+          <button type="submit" id="submit" name="submit">submit</button>
+  
+
+          </div>
+
       </form>
     </div>
   </body>

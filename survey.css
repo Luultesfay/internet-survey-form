@@ -5,20 +5,21 @@
 }
 body {
   font-family: "Courier New", Courier, monospace;
-  background-color: #111111;
+  background-color: rgb(37, 36, 36);
 }
 .container {
-  width: 600px;
-  height: 750px;
+  width: 680px;
+  height: 800px;
   background-color: rgba(14, 11, 11, 0.07);
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
+  margin-top: 1rem;
 }
 form {
-  width: 550px;
-  height: 600px;
+  width: 670px;
+  height: 700px;
   background-color: rgba(225, 225, 225, 0.27);
   position: absolute;
   transform: translate(-50%, -50%);
@@ -33,7 +34,7 @@ form {
   background: rgba(79, 128, 134, 0.27);
   border: 1px solid gainsboro;
   border-radius: 5px;
-  margin-bottom: 7px;
+  margin-bottom: 5px;
 }
 h1 {
   font-size: 1.5rem;
@@ -43,7 +44,7 @@ h1 {
 label {
   display: block;
   margin-top: 17px;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 500px;
   margin-left: 20px;
 }
@@ -51,7 +52,7 @@ input {
   margin-left: 20px;
   background-color: rgba(255, 255, 255, 0.07);
   border-radius: 3px;
-  padding: 0 150px;
+  padding: 10px 150px;
   margin-top: 8px;
   font-size: 14px;
   font-weight: 300;
@@ -59,4 +60,58 @@ input {
 ::placeholder {
   color: #e5e5e5;
   text-align: center;
+}
+
+#dropdown {
+  margin-left: 20px;
+  padding: 10px 120px;
+  background-color: rgba(255, 255, 255, 0.07);
+
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+}
+.user-define {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: -40px;
+  gap: 10px;
+}
+.user-define label {
+  font-size: 16px;
+  margin-bottom: -40px;
+  padding-bottom: 20px;
+  border: rgb(41, 85, 102) solid 2px;
+  background: rgba(129, 79, 129, 0.5);
+}
+.radio-box p {
+  margin: 10px 20px;
+}
+.radio-box {
+  padding-bottom: 20px;
+}
+
+.check-box {
+  padding-bottom: 20px;
+  margin-right: 10px;
+}
+.check-box p {
+  margin-left: 28px;
+  margin-top: 11px;
+}
+.comments {
+  display: grid;
+  grid-template-columns: 1fr;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 92%;
+  left: 50%;
+}
+textarea {
+  padding: 20px 250px;
+  border-radius: 5px;
+}
+button {
+  background-color: green;
 }
